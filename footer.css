@@ -1,0 +1,14 @@
+footer {
+  padding: 1rem;
+  background-color: #150b08;
+  text-align: center;
+  color: white;
+}
+
+span {
+  font-weight: 400;
+  font-size: 14px;
+}
+a {
+  color: var(--clr-light);
+}

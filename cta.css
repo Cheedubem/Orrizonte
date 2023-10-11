@@ -1,0 +1,16 @@
+.cta__section {
+  padding: 4rem;
+  background-color: var(--clr-primary);
+  width: 100%;
+}
+
+.cta__wrapper {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: var(--clr-light);
+  padding: 4rem;
+  width: fit-content;
+}
