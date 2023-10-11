@@ -1,5 +1,5 @@
 :root {
-  --clr-primary: #1c4d3b;
+  --clr-primary: #3e2b27;
   --clr-secondary: #c19121;
   --clr-light: #fff;
 }
@@ -29,9 +29,11 @@ button {
   padding: 10px 20px;
   border: none;
   font-weight: 500;
+  transition: ease 0.3s;
 }
 
 button:hover {
   background-color: var(--clr-primary);
   color: var(--clr-light);
+  padding: 10px 25px;
 }

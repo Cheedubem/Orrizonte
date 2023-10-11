@@ -1,4 +1,55 @@
 .popular__section {
   background-color: var(--clr-primary);
-  padding: 2rem 4rem;
+  padding: 4rem 4rem;
+}
+
+.popular__section .popular__heading {
+  text-align: center;
+  color: var(--clr-light);
+  padding-bottom: 2rem;
+}
+
+.popular__section .popular__watches .watch {
+  display: flex;
+  gap: 5rem;
+  justify-content: space-around;
+  /* align-items: center; */
+  color: var(--clr-light);
+}
+
+.popular__section .popular__watches .watch .item {
+  width: 100px;
+  height: 200px;
+  /* border: 1px solid white; */
+  padding: 1rem;
+}
+
+.popular__section .popular__watches .watch .watch__wrapper h3 {
+  padding-top: 10px;
+}
+
+.popular__section .popular__watches .watch .watch1 {
+  background-image: url(assets/watchpop1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popular__section .popular__watches .watch .watch2 {
+  background-image: url(assets/watchpop2.png);
+  background-position: center;
+  background-size: 200px;
+  background-repeat: no-repeat;
+}
+.popular__section .popular__watches .watch .watch3 {
+  margin-top: -5px;
+  background-image: url(assets/watchpop3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.popular__section .popular__watches .watch .watch4 {
+  background-image: url(assets/watchpop4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
