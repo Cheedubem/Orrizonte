@@ -1,0 +1,19 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--clr-primary);
+  padding: 1rem 4rem;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1rem;
+}
+
+header nav ul li a {
+  color: var(--clr-light);
+}
+
+.logo {
+  color: var(--clr-light);
+}
